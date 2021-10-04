@@ -13,6 +13,10 @@ const path = require('path');
 
 const utilities = require('./utilities/utilities');
 
+app.use(function (req, res, next) {
+    req.headers.origin = req.headers.origin || req.headers.host;
+    next();
+  });
 
 const whitelist = ['https://kaidao-coup.herokuapp.com']
 const corsOptions = {
@@ -28,6 +32,8 @@ const corsOptions = {
   }
 }
 app.use(cors(corsOptions));
+
+
 
 
 
