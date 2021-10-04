@@ -14,7 +14,7 @@ const path = require('path');
 const utilities = require('./utilities/utilities');
 
 
-const whitelist = ['http://localhost:3000', 'http://localhost:8000', 'https://kaidao-coup-online.herokuapp.com']
+const whitelist = ['http://localhost:3000', 'http://localhost:8000', 'https://kaidao-coup.herokuapp.com']
 const corsOptions = {
   origin: function (origin, callback) {
     console.log("** Origin of request " + origin)
