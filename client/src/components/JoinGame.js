@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import Coup from './game/Coup';
 
 const axios = require('axios');
-const baseUrl = process.env.REACT_APP_BACKEND_URL  || 'https://kaidao-coup.herokuapp.com' 
+const baseUrl = 'https://kaidao-coup.herokuapp.com' 
 
 export default class JoinGame extends Component {
 
