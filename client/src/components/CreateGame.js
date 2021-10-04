@@ -36,8 +36,9 @@ export default class CreateGame extends Component {
         const socket = io(`${baseUrl}/${this.state.roomCode}`);
         this.setState({ socket });
         console.log("socket created")
-        console.log("socket is:" + socket)
-        console.log("room code is" + this.state.roomCode)
+        console.log("socket is:", socket)
+        console.log("room code is", this.state.roomCode)
+        console.log("name is", this.state.name)
         socket.emit('setName', this.state.name);
         
         socket.on("joinSuccess", function() {
