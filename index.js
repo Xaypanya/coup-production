@@ -30,11 +30,6 @@ const corsOptions = {
 }
 app.use(cors(corsOptions));
 
-app.use(function (req, res, next) {
-    req.headers.origin = req.headers.origin || req.headers.host;
-    next();
-  });
-
 
 
 
