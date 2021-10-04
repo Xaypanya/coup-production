@@ -4,7 +4,7 @@ import { ReactSortable } from "react-sortablejs";
 import Coup from './game/Coup';
 
 const axios = require('axios');
-const baseUrl = process.env.REACT_APP_BACKEND_URL || "http://localhost:8000"
+const baseUrl = process.env.REACT_APP_BACKEND_URL || "https://kaidao-coup.herokuapp.com"
 
 export default class CreateGame extends Component {
 
