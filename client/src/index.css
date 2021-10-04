@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  font-family: 'DefagoNotoSans';
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  /* background-image: url("https://cdn.discordapp.com/attachments/826834529435648000/894099611575271454/bg_edited.jpg"); */
+  background-image: url("https://cdn.discordapp.com/attachments/821027469028491269/894224363983867944/BG_ed.png");
+ /* Background image is centered vertically and horizontally at all times */
+background-position: center center;
+
+/* Background image doesn't tile */
+background-repeat: no-repeat;
+
+/* Background image is fixed in the viewport so that it doesn't move when
+the content's height is greater than the image's height */
+background-attachment: fixed;
+
+/* This is what makes the background image rescale based
+on the container's size */
+background-size: cover;
+
+/* Set a background color that will be displayed
+while the background image is loading */
+background-color: #c0a273;
+}
+
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #e2d1b6;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(78, 78, 78); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000;
+}
+code {
+  /* font-family: 'Muli', sans-serif; */
+  font-family: 'DefagoNotoSans';
+
+}
+
+p, b, h1,h2,h3,button,a,span{
+  /* font-family: 'Muli', sans-serif; */
+  font-family: 'DefagoNotoSans';
+
+}
+
+input {
+  font-size: 20px;
+  padding-left: 2px;
+  border: 2px solid #BCBCBC;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.5s;
+  font-family: 'DefagoNotoSans';
+}
+input[type=text]:focus {
+  border: 2px solid #555;
+}
+button{
+  cursor: pointer;
+}
+
+.version-number {
+  color: #BCBCBC;
+  font-size: 10px;
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+}
+
+.website-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  background-color: #F2F2F2;
+  border-radius: 5px;
+  padding: 5px;
+  transition-duration: 0.3s;
+}
+.website-link:hover{
+  color: #FFFFFF;
+  background-color: #2B2B2B;
+}
+
+.createGameContainer, .joinGameContainer {
+  position: absolute;
+  top:20VH;
+  margin-left: 12%;
+  width: 76%;
+}
+
+.footer{
+  position: absolute;
+  width: 90VW;
+  margin-left: 5VW;
+  bottom: 20px;
+  /* border: 1px solid red; */
+}
+
+.footer-2{
+  position: absolute;
+  width: 90VW;
+  margin-left: 5VW;
+  bottom: 60px;
+  /* border: 1px solid rgb(17, 0, 255); */
+}
+
+.homeContainer{
+  position: absolute;
+  width: 90VW;
+  margin-left: 5VW;
+  top: 8VH;
+  /* border: 1px solid green; */
+}
+
+.homeModalContainer {
+  margin: auto;
+  margin-top: 10px;
+  display: block;
+  width: 54px;
+}
+
+.homeContainer img{
+  width: 120px;
+  height: 120px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.home{
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-width: 100px;
+  border-radius: 5px;
+  background-color: #414141;
+  border: none;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.RoomCode {
+  background-color: #F2F2F2;
+  border: 2px solid #707070;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.createButton, .joinButton{
+  min-width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  /* font-family: 'Muli', sans-serif; */
+  font-family: 'DefagoNotoSans';
+  background-color: #414141;
+  border: none;
+  color: white;
+  margin: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.createButton:disabled, .joinButton:disabled{
+  background-color: #2B2B2B;
+}
+
+.startGameButton{
+  /* min-width: 100px; */
+  /* height: 30px; */
+  border-radius: 5px;
+  background-color: #414141;
+  border: none;
+  color: white;
+  margin: 20px;
+  margin-bottom: 0px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.readyUnitContainer {
+  width: 205px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.readyUnit {
+  /* min-width: 150px;
+  max-width: 200px; */
+  width: 200px;
+  border-radius: 5px;
+  background-color: #414141;
+  border: none;
+  padding-left: 5px;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+.readyUnit b{
+  text-align: right;
+}
+
+.readyUnit p, .readyUnit b{
+  color: #ffffff
+}
