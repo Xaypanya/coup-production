@@ -55,39 +55,39 @@ export default class AboutModal extends Component {
             {/* //TODO Gan */}
             <h3 style={{textDecoration: 'none'}}># Coder</h3>
                 <div className="cardInfoBox"  style={{marginBottom: 10}}>
-                <img src="https://cdn.discordapp.com/attachments/826834529435648000/894591318913851422/gan_card.jpg" alt="captain" width="90"/>
+                <img src="https://cdn.discordapp.com/attachments/826834529435648000/894591318913851422/gan_card.jpg" alt="gan" width="90"/>
                 <div className="detailsBox">
                 <h5>ຊື່: ໄຊປັນຍາ ພົງສາ</h5>
                 <h5>ບົດບາດ: ຂຽນ Code, Testing</h5>
                 <div className="actionBox">
-                    <img src="https://img-premium.flaticon.com/png/512/2115/premium/2115955.png?token=exp=1633354446~hmac=32c0a9c0f4e4ee53a15638518a5d684b" alt="steal" width="30"/>
-                    <img src="https://cdn-icons-png.flaticon.com/512/2721/2721278.png" alt="block_steal" width="30"/>
+                    <img src="https://cdn-icons-png.flaticon.com/512/922/922656.png" alt="coding" width="30"/>
+                    <img src="https://cdn-icons-png.flaticon.com/512/2721/2721278.png" alt="testing" width="30"/>
                 </div>
                 </div>
                 </div>
             {/* //TODO Pap */}
             <h3 style={{textDecoration: 'none'}}># Graphic Designer</h3>
                 <div className="cardInfoBox"  style={{marginBottom: 10}}>
-                <img src="https://cdn.discordapp.com/attachments/826834529435648000/894591320344104960/pap_card.jpg" alt="captain" width="90"/>
+                <img src="https://cdn.discordapp.com/attachments/826834529435648000/894591320344104960/pap_card.jpg" alt="pap" width="90"/>
                 <div className="detailsBox">
                 <h5>ຊື່: ທະນູທອງ ນັນທາວົງ</h5>
                 <h5>ບົດບາດ: ອອກແບບ, ເຮັດ Graphic</h5>
                 <div className="actionBox">
-                    <img src="https://img-premium.flaticon.com/png/512/1882/premium/1882734.png?token=exp=1633354519~hmac=9e4b5f6e756d68b89ab1eb57b0c08090" alt="steal" width="30"/>
-                    <img src="https://cdn-icons-png.flaticon.com/512/922/922699.png" alt="block_steal" width="30"/>
+                    <img src="https://cdn-icons-png.flaticon.com/512/2857/2857527.png" alt="design" width="30"/>
+                    <img src="https://cdn-icons-png.flaticon.com/512/922/922699.png" alt="graphic" width="30"/>
                 </div>
                 </div>
                 </div>
             {/* //TODO Zang */}
             <h3 style={{textDecoration: 'none'}}># Author / Translator</h3>
                 <div className="cardInfoBox"  style={{marginBottom: 10}}>
-                <img src="https://cdn.discordapp.com/attachments/826834529435648000/894591316502130799/zang_card.jpg" alt="captain" width="90"/>
+                <img src="https://cdn.discordapp.com/attachments/826834529435648000/894591316502130799/zang_card.jpg" alt="zang" width="90"/>
                 <div className="detailsBox">
                 <h5>ຊື່: ອາຫຼຽງ ແກ້ວລະນີ</h5>
                 <h5>ບົດບາດ: ແປ, ຮຽບຮຽງ</h5>
                 <div className="actionBox">
-                    <img src="https://img-premium.flaticon.com/png/512/576/premium/576515.png?token=exp=1633354578~hmac=9705d69abc7661e8722d59d9cfdb22f6" alt="steal" width="30"/>
-                    <img src="https://cdn-icons-png.flaticon.com/512/1162/1162280.png" alt="block_steal" width="30"/>
+                    <img src="https://cdn-icons-png.flaticon.com/512/4237/4237790.png" alt="translate" width="30"/>
+                    <img src="https://cdn-icons-png.flaticon.com/512/1162/1162280.png" alt="checking" width="30"/>
                 </div>
                 </div>
                 </div>
