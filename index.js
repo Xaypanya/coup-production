@@ -15,7 +15,7 @@ const utilities = require('./utilities/utilities');
 
 
 
-const whitelist = ['https://kaidao-coup.herokuapp.com']
+const whitelist = ['http://localhost:3000','http://localhost:8000','https://kaidao-coup.herokuapp.com']
 const corsOptions = {
   origin: function (origin, callback) {
     console.log("** Origin of request " + origin)
@@ -34,14 +34,14 @@ app.use(cors(corsOptions));
 
 
 
-if (process.env.NODE_ENV === 'production') {
+// if (process.env.NODE_ENV === 'production') {
     // Serve any static files
-    app.use(express.static(path.join(__dirname, 'client/build')));
-  // Handle React routing, return all requests to React app
-    app.get('*', function(req, res) {
-      res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
-    });
-  }
+//     app.use(express.static(path.join(__dirname, 'client/build')));
+//   // Handle React routing, return all requests to React app
+//     app.get('*', function(req, res) {
+//       res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+//     });
+//   }
 
 
 // Constants

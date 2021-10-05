@@ -5,6 +5,7 @@ function generateNamespace(length = 6) {
    for (var i = 0; i < length; i++) {
       result += characters.charAt(Math.floor(Math.random() * charactersLength));
    }
+   console.log("generated complete =" + result);
    return result;
 };
 
