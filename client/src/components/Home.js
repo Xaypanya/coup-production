@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom";
-import chicken from "../assets/Chicken.svg"
 import AboutModal from './AboutModal';
 import RulesModal from './RulesModal';
 

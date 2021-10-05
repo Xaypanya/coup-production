@@ -10,7 +10,6 @@ import ExchangeInfluences from './ExchangeInfluences';
 import './CoupStyles.css';
 import EventLog from './EventLog';
 import ReactModal from 'react-modal';
-import CheatSheetModal from '../CheatSheetModal';
 import RulesModal from '../RulesModal';
 
 

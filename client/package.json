@@ -19,11 +19,9 @@
     "socket.io-client": "^2.3.0",
     "sortablejs": "^1.14.0"
   },
-  "proxy": "http://localhost:8000",
-  "scripts": {
+ "scripts": {
     "start": "react-scripts start",
-    "start-pc": "set PORT=8000 && react-scripts start",
-    "build": "react-scripts build",
+    "build": "node build && gulp",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -41,5 +39,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cra-build-watch": "^3.4.0",
+    "rewire": "^5.0.0"
   }
 }
